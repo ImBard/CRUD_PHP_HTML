@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919 ;
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* style da parte da pagina index */
+/* ------------------------------------------------------------------------------ */
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #34495e;
+    text-align: center;
+    border-radius: 20px;
+}
+.box h1{
+    color: white;
+    letter-spacing: 20px;
+}
+.box .button {
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    border: 2px solid #2ecc71;
+    margin-top: 10px;
+    padding: 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.box .button:hover{
+    background: #2ecc71;
+    color: black;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* style da parte da pagina do cadastro com os inputs */
+/* ------------------------------------------------------------------------------ */
+
+.column input {
+    background: none;
+    color: white;
+
+}
+.column input:focus {
+    outline: none;
+    background: none; 
+    color: #fff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff;
+}
+#confirm {
+    color: black;
+    
+}
+#confirm input {
+    color: black;
+}
+#confirm 
+input[id="nomeModal"]:-webkit-autofill,
+input[id="nomeModal"]:-webkit-autofill:hover, 
+input[id="nomeModal"]:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black;
+}
+#confirm
+input[id="emailModal"]:-webkit-autofill,
+input[id="emailModal"]:-webkit-autofill:hover, 
+input[id="emailModal"]:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black;
+}
+#confirm
+input[id="enderecoModal"]:-webkit-autofill,
+input[id="enderecoModal"]:-webkit-autofill:hover, 
+input[id="enderecoModal"]:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black;
+}#confirm
+input[id="telefoneModal"]:-webkit-autofill,
+input[id="telefoneModal"]:-webkit-autofill:hover, 
+input[id="telefoneModal"]:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black;
+}
+#confirm
+input[id="dt_nascimentoModal"]:-webkit-autofill,
+input[id="dt_nascimentoModal"]:-webkit-autofill:hover, 
+input[id="dt_nascimentoModal"]:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black;
+}
+
+
+/*.modal-dialog {
+    color: black;
+}
+.modal-dialog input {
+    color: black;
+}
+.modal-dialog .modal-content input:hover, 
+input:focus 
+{
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black;
+}
