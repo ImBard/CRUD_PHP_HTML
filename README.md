@@ -1,0 +1,6 @@
+"# CRUD_PHP_HTML" 
+"- Crie um database com o nome de crud"
+"- Crie uma tabela com os campos, nome, emai, endereço, telefone. dt_nascimento"
+"- Verifique se as variaveis de conexão com o mysql estão corretas"
+"- Link de material usado para criação do CRUD"
+"- https://www.youtube.com/watch?v=ecD45s8CUZE"
