@@ -4,3 +4,5 @@
 "- Verifique se as variaveis de conexão com o mysql estão corretas"
 "- Link de material usado para criação do CRUD"
 "- https://www.youtube.com/watch?v=ecD45s8CUZE"
+"- Link GitHub"
+"- https://github.com/ImBard/CRUD_PHP_HTML"
